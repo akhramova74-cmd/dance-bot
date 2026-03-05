@@ -1,4 +1,3 @@
-Ли'са, [05.03.2026 16:23]
 import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
@@ -85,7 +84,6 @@ def number_menu(current):
     if current < 11:
         keyboard.
 
-Ли'са, [05.03.2026 16:23]
 append([InlineKeyboardButton("➡ Дальше", callback_data=f"num_{current+1}")])
     return InlineKeyboardMarkup(keyboard)
 
